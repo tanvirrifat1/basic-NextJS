@@ -1,16 +1,16 @@
 import React from "react";
 import RootLayout from "../components/Layout/RootLayout";
 
-const HomePage = () => {
+const about = () => {
   return (
     <div>
-      <h1>Welcome to Home page</h1>
+      <h1>this is aboutPage</h1>
     </div>
   );
 };
 
-export default HomePage;
+export default about;
 
-HomePage.getLayout = function getLayout(page) {
+about.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
